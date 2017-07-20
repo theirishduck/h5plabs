@@ -2,27 +2,23 @@
  <html>
    <head>
 
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
 
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
+     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
-     
-
-     <style>
-       
+      <style>
+        
 
 body 
 {
@@ -40,13 +36,23 @@ figcaption
   align-items: center;
 }
 
+.credits
+{
+  min-height:20px;
+}
 
 
-     </style>
+    </style>
 
-   </head>
+  </head>
 
   <body>
+
+    
+
+
+
+  <div class="ui container">
     
 
 <style>
@@ -68,143 +74,62 @@ h1
 {
   font-style:italic;
   font-size:130%;
-  border-bottom:thin solid black;
+  border-bottom: thin solid black;
 }
-
 h2
 {
   font-size:110%;
   border-bottom: thin solid black;
 }
-
 h3
 {
   font-size:100%;
   border-bottom: thin solid black;
 }
 
-body
-{
-  overflow-y: scroll;
-}
-
-.pushable > .pusher
-{
-  padding-bottom: 1.5rem;
-}
-
-.ui.segment.pushable
-{
-  margin: 0;
-  padding: 1rem 0;
-  overflow: visible;
-}
-
 
 
 </style>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
+<div class="ui fixed top pointing inverted menu labmenu">
   <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
     <a href="../index.html">
-       Interactive Video
+      <i class="sitemap icon"></i>
+       Interactive Video
     </a>
   </header>
   <div class="right tab-menu menu">
     
-    <a class="item" data-tab="Lab-02">
-      Lab-02
-    </a>
+      <a class="item" data-tab="Lab-02">
+        Lab-02
+      </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
+      <a class="item" data-tab="01">
+        01
+      </a>
     
-    <a class="item" data-tab="02">
-      02
-    </a>
+      <a class="item" data-tab="02">
+        02
+      </a>
     
-    <a class="item" data-tab="03">
-      03
-    </a>
+      <a class="item" data-tab="03">
+        03
+      </a>
     
-    <div class="item">
-      
     </div>
-  </div>
 </div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    
-      
-        <a class="item" href="../../topic01/book-a/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic02/book-a/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03/book-a/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04/book-a/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05/book-a/index.html">
-          Lab-05
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06/book-a/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic07/book-a/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic08/book-a/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic09/book-a/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-02">
-        <h1>Objectives</h1>
+<br><br>
+
+  
+  <div  class="ui tab segment lab" data-tab="Lab-02">
+    <h1>Objectives</h1>
 <p>Learn how to integrate the <strong>Interactive Video</strong> Content type into Moodle.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Lets get started</h1>
+  </div>
+ 
+  <div  class="ui tab segment lab" data-tab="01">
+    <h1>Lets get started</h1>
 <p>All of the content types are available in <a href="https://h5p.org/content-types-and-applications" target="_blank">this link</a> </p>
 <h2>H5P</h2>
 <p>You will need to log on to H5P, available via <a href="https://h5p.org/" target="_blank">this link</a></p>
@@ -215,10 +140,10 @@ body
 <p><img src="img/02a.jpg" alt=""></p>
 <p>You should now have an archive folder in .h5p file extension in your download folder</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>In Moodle</h1>
+  </div>
+ 
+  <div  class="ui tab segment lab" data-tab="02">
+    <h1>In Moodle</h1>
 <p>Log in Moodle</p>
 <h2>Choose a module</h2>
 <p>You must first decide on which module you want to use this content type and in which section inside the module.</p>
@@ -233,10 +158,10 @@ body
 <p>If you choose to create from scratch then you must choose you content type</p>
 <p><img src="img/07.jpg" alt=""></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>Back in Moodle</h1>
+  </div>
+ 
+  <div  class="ui tab segment lab" data-tab="03">
+    <h1>Back in Moodle</h1>
 <p>As mentioned previously the best option is to download your content type from <a href="https://h5p.org/content-types-and-applications" target="_blank">here</a></p>
 <h2>Settings</h2>
 <p>First you will need to upload the h5p file you just download and drag and drop the file into the file area. </p>
@@ -252,81 +177,58 @@ body
 <p>When your finished make sure you <strong>save</strong> your changes</p>
 <p><img src="img/save.jpg" alt=""></p>
 
-      </div>
-     
-    </div>
   </div>
-</div>
-  <div class="ui bottom fixed borderless right menu">
-    <div class="ui right tiny menu">
-      <div class="ui mini message segment">
-        @witctel.
-        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-            target="_blank">Creative Commons License
-        </a>
-      </div>
-    </div>
-  </div>
+ 
+
 
 <script>
-  $(document).on('keydown', function (e) {
-  e = e || window.event;
-  var nextTab;
-  switch (e.which || e.keyCode) {
-    case 37: // left
-      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
-      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
-      nextTab.click();
-      $('.pusher').focus();
-      break;
-
-    case 39: // right
-      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
-      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
-      nextTab.click();
-      $('.pusher').focus();
-      break;
-  }
-});
-
+$('.ui.menu .item')
+  .tab({
+    history: true,
+    historyType: 'hash'
+  })
+;
 </script>
 
-    <footer>
+   </div>
 
-    </footer>
+   
+  <br><br>
+  <div class="ui bottom fixed borderless menu">
+    <div class="ui small item">
+    <p id="footertext">
+    Prepared by  @witctel. Except where otherwise noted, this content is licensed under a
+     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
+     </a>
+     </p>
+    </div>
+  </div>
+
     <script>
-      $(document).ready(function () {
-  $('img').addClass('ui image');
+      
+$(document).ready(function()
+{
+  $("img").addClass ("ui image");
   $('.ui.embed').embed();
 
-  const $images = $('.lab img');
-  jQuery.each($images, function (i) {
-    if (($images[i].alt).length > 0) {
-      const divImg = $(document.createElement('div')).addClass('ui basic segment');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('ui blue ribbon label');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertBefore($images[i]);
+  var images = $(".lab img");
+  jQuery.each(images, function(i)  {
+    if((images[i].alt).length > 0)
+    {
+      var div_img = $(document.createElement("div")).addClass("ui segment");
+      $(images[i]).wrap(div_img);
+      var div_label = $(document.createElement("div")).addClass("ui ribbon teal top attached label");
+      div_label.append(images[i].alt);
+      $(div_label).insertBefore(images[i]);
     }
   });
 
-  $('.ui.embed').embed();
 
-  $('.ui.menu .item')
-      .tab({
-        history: true,
-        historyType: 'hash',
-      });
+})
 
-  $('.popup').popup();
-
-  $('.ui.sidebar')
-      .sidebar({ context: $('.pushable') })
-      .sidebar('setting', 'transition', 'slide out')
-      .sidebar('attach events', '#toc');
-});
 
     </script>
-  </body>
 
+  </body>
  </html>
